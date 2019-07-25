@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TwitterCompare - {{ title }}</title>
+        <!-- CSS, keywords, meta goes here -->
+    </head>
+
+
+    <body>
+        <h1>TwitterCompare</h1>
+        <p>Content</p>
+
+        <ul>
+            {% for user in users %}
+            <li> {{ user.name }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+
+
+
+</html>
